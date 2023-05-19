@@ -1,0 +1,30 @@
+:root {
+  --first-color: #DCD2FF;
+  --second-color: #CFBAF0;
+  --third-color: #F1C0E8;
+  --fourth-color: #FFCFD2;
+  --fifth-color: #FDE4CF;
+  --sixth-color: #FBF8CC;
+  --light-color: #ffffff;
+  --dark-color: rgb(40, 26, 60);
+}
+
+nav{
+    background-color: var(--first-color);
+}
+
+.hero{
+    background-color: var(--second-color);
+}
+
+.about-me{
+   background-color: var(--third-color); 
+}
+
+.projects{
+    background-color: var(--fourth-color);
+}
+
+footer{
+    background-color: var(--sixth-color);
+}
