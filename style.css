@@ -190,7 +190,7 @@ nav a {
   top: 75%;
   left: 60%;
 }
-.fa-github {
+li .fa-github {
   position: absolute;
   top: 75%;
   left: 80%;
