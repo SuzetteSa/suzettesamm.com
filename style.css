@@ -37,6 +37,7 @@ nav a {
   color: var(--dark-color);
   margin: 0;
   padding: 0;
+  height: 50%;
 }
 
 .hero-text h1 {
@@ -121,8 +122,8 @@ nav a {
 }
 
 .skills-container ul {
-  margin: 0;
-  padding: 1rem;
+  margin: 1rem;
+  padding: 3rem;
 }
 
 .skills-container li {
@@ -132,68 +133,68 @@ nav a {
 .fa-html5 {
   position: absolute;
   top: 25%;
-  left: 20%;
+  left: 15%;
 }
 
 .fa-css3-alt {
   position: absolute;
   top: 25%;
-  left: 40%;
+  left: 35%;
 }
 .fa-square-js {
   position: absolute;
   top: 25%;
-  left: 60%;
+  left: 55%;
 }
 .fa-react {
   position: absolute;
   top: 25%;
-  left: 80%;
+  left: 75%;
 }
 .fa-elementor {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 5%;
 }
 .fa-wordpress-simple {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 25%;
 }
 .fa-bootstrap {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
 }
 .fa-npm {
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 65%;
 }
 .fa-git-alt {
   position: absolute;
   top: 50%;
-  left: 90%;
+  left: 85%;
 }
 .fa-terminal {
   position: absolute;
   top: 75%;
-  left: 20%;
+  left: 15%;
 }
 .fa-figma {
   position: absolute;
   top: 75%;
-  left: 40%;
+  left: 35%;
 }
 .fa-node {
   position: absolute;
   top: 75%;
-  left: 60%;
+  left: 55%;
 }
 li .fa-github {
   position: absolute;
   top: 75%;
-  left: 80%;
+  left: 75%;
 }
 
 .card {
@@ -290,4 +291,17 @@ footer {
   display: flex;
   background-color: var(--first-color);
   justify-content: center;
+  align-items: center;
+  
+
+}
+
+footer a{
+  color: var(--dark-color);
+  width: 10%;
+  height: 10%;
+  padding: 1em;
+  margin: 1em;
+
+
 }
