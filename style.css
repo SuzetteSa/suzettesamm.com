@@ -30,34 +30,46 @@ nav a {
   outline-style: auto;
 }
 
-.hero-text {
+.col-md-6{
+  height: 80vh;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-text-container {
   display: flex;
   flex-direction: column;
   background-color: var(--second-color);
   color: var(--dark-color);
   margin: 0;
   padding: 0;
-  height: 50%;
+  height: 100%;
+  min-width: 100%;
+}
+
+.hero-text{
+  margin:auto;
 }
 
 .hero-text h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-family: "Abril Fatface";
   text-align: center;
 }
 
 .hero-text h2 {
-  font-size: 2em;
+  font-size: 3em;
   font-family: "Abril Fatface";
   text-align: center;
 }
 .hero-text h4 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family: "Abril Fatface";
   text-align: center;
 }
 .hero-text p {
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: "Poppins";
   color: var(--dark-color);
   text-align: center;
@@ -69,8 +81,7 @@ nav a {
   border-radius: 10px;
   padding: 0.1em;
   width: 40vw;
-  margin: auto;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .hero-fig {
@@ -80,6 +91,8 @@ nav a {
   justify-content: center;
   align-items: end;
   background-color: var(--sixth-color);
+  height: 100%;
+  min-width: 100%;
 }
 
 .hero-image-container {
@@ -94,22 +107,33 @@ nav a {
   padding: 0;
 }
 
+
 .about-me {
   background-color: var(--fifth-color);
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: auto;
+  padding: 0;
+  height: 100%;
+  min-width: 100%;
+}
+
+.about-me-text{
+  margin:auto;
 }
 
 .about-me h2 {
   font-family: "Abril Fatface";
-  padding: 1em;
+  padding: 0.5em;
+  font-size: 3em;
 }
 
 .about-me p {
   font-family: "Poppins";
   padding: 1em;
+  font-size: 1.3em;
+
 }
 
 .skills-container {
@@ -117,9 +141,18 @@ nav a {
   justify-content: center;
   position: relative;
   margin: 0;
-  padding: 1rem;
-  min-height: 70vh;
+  padding: 0;
+  height: 100%;
+  min-width: 100%;
 }
+
+.skills-container h2 {
+ font-family: "Abril Fatface";
+ margin: auto;
+  padding: 0.5em;
+  font-size: 3em;
+}
+
 
 .skills-container ul {
   margin: 1rem;
@@ -292,16 +325,24 @@ footer {
   background-color: var(--first-color);
   justify-content: center;
   align-items: center;
-  
-
 }
 
-footer a{
+footer a {
   color: var(--dark-color);
   width: 10%;
   height: 10%;
   padding: 1em;
   margin: 1em;
+}
+
+@media screen and (min-width: 600px) {
 
 
+
+  .projects {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
